@@ -1,0 +1,15 @@
+{
+  "name": "acuity-mcp",
+  "version": "2.0.0",
+  "description": "Local MCP server exposing the Acuity Scheduling API as Claude Code tools, with multi-account support",
+  "type": "module",
+  "private": true,
+  "main": "server.js",
+  "bin": {
+    "acuity-accounts": "./bin/acuity-accounts.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.23.0"
+  }
+}

@@ -1,0 +1,9 @@
+node_modules/
+*.log
+.DS_Store
+
+# Credentials belong in ~/.config/acuity-mcp/ (outside the repo), never here — these
+# patterns are a defensive backstop in case someone experiments locally inside the repo.
+accounts.json
+credentials
+.env
